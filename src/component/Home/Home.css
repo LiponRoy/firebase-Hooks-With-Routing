@@ -1,0 +1,66 @@
+.myHeader{
+    height: 80vh;
+    background-color: rgb(139, 19, 163);
+}
+.allText{
+        height: 80vh;
+        background-color: rgb(48, 22, 141);
+        /* width: 100%; */
+        padding: 50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+.textHeading{
+        font-size: 45px;
+        font-weight: 700;
+       text-transform: uppercase;
+
+}
+
+.textPara{
+        text-align: justify;
+
+}
+.HeaderImagePart{
+        height: 80vh;
+        background-color: rgb(12, 127, 180);
+        /* width: 100%; */
+
+        background-image: url('../../imgall/me.png');
+        background-attachment: scroll;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+
+
+        .allText {
+                        /* background-image: url('../../imgall/me.png');
+                        background-attachment: scroll;
+                        background-position: top center;
+                        background-repeat: no-repeat;
+                        background-size: 160px; */
+               
+        }
+        .textHeading {
+                font-size: 35px;
+                font-weight: 500;
+        }
+
+        .HeaderImagePart {
+               display: none;
+        
+        }
+
+}
